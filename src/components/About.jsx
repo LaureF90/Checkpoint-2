@@ -1,0 +1,11 @@
+import React from "react";
+
+function About () {
+return (
+<div class="paragraph">
+<h2>Our Philosophy</h2>;
+<p>While much has changed since we opened shop in 2002 – the Ottolenghi team has expanded, new sites have appeared along with thriving restaurants and an on-line store, exciting new ingredients fill our cupboards, even bigger platters hold even taller displays of food – so much, crucially, has remained the same. Staff members who’ve been together for years, recipes, dishes and ingredients that are old and trusted favourites and a philosophy at the heart of all we do that is as true today as it ever was. Simply put, we are very serious about making people happy through our food. To look at, to taste, to eat in-store or to take-away home, to order products on-line or when dining in our restaurants, the food that we create is often described as ‘sunny’. It’s full of harmonious contradictions: it’s vibrant and bold yet familiar and comforting; it’s beautiful to look at yet close to its original form; it’s full of surprising drama yet always comes together as one; it’s noisy yet peaceful, lip-smacking yet warm, simple yet daring. We are still cooking the food that we and our customers delight in and it’s still making us proud, happy and full of beans. As ever, our food is freshly-made and (naturally!) free from preservatives and colouring. With few exceptions, we source our goods largely within Britain and sometimes from Europe. We are particularly proud to be working with many small, local, dedicated food producers from around the country. From East London organic fruit and veg cooperative to a Lincolnshire-based prawn farm which is the only sustainable such farm in Europe, to supporting farmers practising 100% grass-fed humanely-raised cattle, there is so much energy, passion and integrity going into the making of first-class ingredients. The Mediterranean influence is still strong in our cooking but we are as likely, these days, to be reaching for the mirin and miso as we are towards the pomegranate molasses, olive oil and date syrup. The cupboard is wide, the menu ever-changing and the experiments ever-underway. We continue on with both a boundless enthusiasm and an unswerving dedication to detail. The result is some very merry- making food.</p>
+ </div>
+)};
+
+export default About;

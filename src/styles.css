@@ -1,0 +1,95 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0%;
+}
+
+  /* Navigation */
+.Nav {
+    overflow: hidden;
+    padding: 30px 20px 30px 20px; /*Etre éloigné du bord de la page */
+    display: flex;
+    background-color:grey;
+    height: auto;
+  }
+
+  .List {
+    text-align: center;
+    justify-content: flex-start;
+    list-style-type: none; /*enlever les bullets points*/
+    display: flex;
+    margin: auto;
+  }
+  
+  .Nav li { /* Pour éloigner les mots les uns des autres, ce qui est de la mise en page des mots dans la box*/
+    text-align: center;
+    padding: 20px;
+    text-decoration: none; /*enlever le surlignage */
+    font-size: 20px;
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+  }
+
+    a {
+    color: black;
+    text-decoration: none; 
+  }
+
+  /* Headings */
+h2 {
+  color:black;
+  font-size: 22px;
+  font-family: Calibri;
+  padding-left: 30px;
+  text-align: center;
+}
+
+h3 {
+  color:black;
+  font-size: 18px;
+  font-family: Calibri;
+  padding-left: 30px;
+}
+
+h4 {
+  color:grey;
+  font-size: 18px;
+  font-family: Calibri;
+  padding-left: 30px;
+}
+
+p {
+  color: rgb(8, 8, 8);
+  font-family: Calibri, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  /* padding-left: 40px; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  /* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;    
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  font-family: Calibri, sans-serif;
+}
+  
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+  
